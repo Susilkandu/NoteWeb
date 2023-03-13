@@ -1,0 +1,117 @@
+body{
+    background-image: linear-gradient(90deg, rgb(20, 218, 221) 0%, rgb(128, 109, 236) 100%);
+}
+.navbar
+{
+    display: block;
+    width: 100vw;
+    color: white;
+    background-color: hsl(202, 100%, 50%);
+font-size: small;
+margin:auto;
+flex-wrap: wrap;
+}
+#search
+{
+    display: block;
+    margin-left: 50vw;
+}
+.card
+{
+width: 50vw;
+margin:auto;
+}
+h5
+{
+    display: block;
+ width: 50vw;
+    margin: auto;
+text-align: center;
+  margin-top: 0.1rem;
+}
+textarea
+{
+    width: 50vw;
+}
+#savebtn
+{
+    display: block;
+width: 20vw;
+margin: auto;
+background-color: hsl(202, 100%, 50%);
+border-radius: 0.5rem ;
+color: white;
+cursor: pointer;
+}
+#savebtn:hover
+{
+    background-color: hsl(202, 92%, 65%);
+
+}
+#shownotes
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90vw;
+    min-height: 20vh;
+    margin: auto;
+align-items: center;
+    border: 0.1rem solid black;
+}
+#sdiv
+{
+min-width: 20vw;
+min-height: 20vh    ;
+background-color: white;
+border: 0.1rem solid black;
+border-radius: 1rem;
+}
+#srvalue
+{
+    display: block;
+    text-align: center;
+    text-shadow: 0.1rem 0rem 5px rgb(255, 255, 255);
+    background-color: hsl(202, 100%, 50%);
+    border: 1px solid rgb(0, 0, 0);
+    border-top-left-radius:1rem;
+    border-top-right-radius:1rem;
+    margin: auto;
+    font-weight: bold;
+}
+#notes
+{
+    min-height: 15vh;
+
+}
+#deletebtn
+{
+    display: block;
+    background-color: hsl(202, 100%, 50%);
+    margin: auto;
+color: white;
+    border-radius: 0.5rem;
+    width: 15vw;
+}
+#formresp
+{
+    text-shadow: 0.3rem 0rem 5px rgb(255, 5, 5);
+    font-weight: bolder;
+    font-style:italic;
+    background-color: red;
+    
+}
+#formate:hover
+{
+    background-color: red;
+}
+#formate
+{
+    margin-top: 0.2rem;
+    background-color: hsl(202, 100%, 50%);
+    border-radius: 0.5rem;
+}
+#deletebtn:hover
+{
+background-color: red;
+}
